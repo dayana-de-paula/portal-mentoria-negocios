@@ -30,7 +30,7 @@ O **Portal de Mentoria de Negócios** é uma solução inovadora que oferece um 
 
 ### **4. CRM Inteligente**
 - **Gestão de Leads e Vendas:**
-  - Sistema Kanban com status personalizáveis: **Lead**, **Qualificado**, **Agendado**, **Follow-up**, **Ganho** e **Perdido**.
+  - Sistema Kanban com os status: **Lead**, **Qualificado**, **Agendado**, **Follow-up**, **Ganho** e **Perdido**.
   - Registro detalhado de cada lead, incluindo status, fonte de aquisição e método de pagamento.
 - **Análises Visuais:**
   - Gráficos de desempenho: status dos leads, fontes de aquisição e métodos de pagamento.
@@ -51,10 +51,11 @@ O **Portal de Mentoria de Negócios** é uma solução inovadora que oferece um 
 ---
 
 ## Tecnologias Utilizadas
-- **IA:** OpenAI para análise de dados e recomendações inteligentes.
-- **Banco de Dados:** Supabase para armazenamento seguro e eficiente.
-- **Back-end:** Automação e integração com ferramentas no-code e APIs.
-- **Front-end:** Ferramenta no-code para desenvolvimento de interface moderna e responsiva.
+- **Supabase**: Banco de dados relacional para armazenamento de dados.
+- **IA:** API da OpenAI para análise de dados, treinamento do tutor e recomendações inteligentes.
+- **n8n**: Automação dos processos de back-end.
+- **Chart.js**: Visualização de dados em gráficos interativos.
+- **Ferramenta no-code**: Desenvolvimento do front-end responsivo e interativo.
 
 ---
 
@@ -90,3 +91,7 @@ Este repositório foi criado para apresentar as funcionalidades e a estrutura do
 
 ## Licença
 Este projeto está protegido e não possui uma licença pública. Para mais informações, entre em contato.
+
+## Contato
+Se você deseja saber mais sobre este projeto ou obter uma demonstração, entre em contato:
+- LinkedIn: [Dayana de Paula](https://linkedin.com/in/dayana-depaula)
