@@ -1,54 +1,92 @@
 # Portal de Mentoria de Negócios
 
 ## Descrição
-O **Portal de Mentoria de Negócios** é uma plataforma completa e personalizada para mentores e empreendedores que desejam otimizar o planejamento estratégico, acompanhar métricas financeiras e gerenciar a jornada dos seus mentorados. O sistema combina uma interface visual amigável com ferramentas avançadas de gestão e análise, incluindo inteligência artificial.
+O **Portal de Mentoria de Negócios** é uma solução inovadora que oferece um ecossistema completo para mentores e suas equipes gerenciarem mentorias de forma eficaz. A plataforma combina análises de dados, gestão de tarefas, acompanhamento de resultados e automação inteligente com IA. Com uma interface moderna e intuitiva, o portal foi projetado para atender às necessidades específicas de mentorados e equipes de suporte ao cliente (CS).
 
-## Funcionalidades Principais
-- **Planejamento Estratégico e Kanban**:
-  - Organização de tarefas em sprints com visualização em formato de Kanban.
-  - Possibilidade de criação de cenários para diferentes planos de ação.
-- **Progresso Financeiro e Metas**:
-  - Monitoramento de metas financeiras e prêmios associados ao desempenho.
-  - Gráficos interativos para visualização do progresso em tempo real.
-- **Ferramentas Exclusivas para Alunos**:
-  - Matriz de ICP, Banco de Objeções e Playbooks personalizados.
-  - Acompanhamento individualizado para cada mentorado.
-- **CRM Integrado**:
-  - Gerenciamento de leads em múltiplos estágios (Qualificado, Agendado, Follow-up, Ganho, Perdido).
-  - Gráficos interativos para análise de status e fontes de leads.
-- **Análise de Calls pela IA**:
-  - Recomendações automáticas baseadas em métricas de desempenho e padrões detectados.
-  - Relatórios detalhados para tomada de decisão estratégica.
+## Funcionalidades
+
+### **1. Dashboard Personalizado**
+- Visão geral clara das principais métricas de negócios:
+  - **Faturamento:** Meta estipulada, faturamento realizado e caixa.
+  - **Operacional:** Agendamentos, reuniões realizadas e vendas.
+  - **Custos:** Valores por agendamento, reunião e venda.
+- Gráficos e indicadores de progresso para metas financeiras e operacionais.
+- Premiações baseadas no desempenho, incentivando o alcance de metas.
+
+### **2. Plano de Ação**
+- Organização das tarefas dos mentorados:
+  - Divisão em status: **A Fazer**, **Em Andamento** e **Feito**.
+  - Sistema de **Sprints** para planejamento e execução de metas em ciclos.
+  - Cenários personalizáveis para adaptação de estratégias a diferentes perfis de mentorados.
+- Ferramenta essencial para a organização e validação das ações necessárias ao sucesso.
+
+### **3. Área de CS (Customer Success)**
+- **Acompanhamento de Dados do Mentorado:**
+  - Métricas detalhadas como leads qualificados, agendamentos, calls realizadas, vendas e CAC (Custo de Aquisição de Cliente).
+  - Comparativo de custos por lead qualificado, agendamento e call.
+- **Gestão de Respostas e Ferramentas:**
+  - Consolidação das respostas fornecidas pelos mentorados em diversas ferramentas.
+  - Visualização detalhada para análise de desempenho e identificação de pontos de melhoria.
+
+### **4. CRM Inteligente**
+- **Gestão de Leads e Vendas:**
+  - Sistema Kanban com status personalizáveis: **Lead**, **Qualificado**, **Agendado**, **Follow-up**, **Ganho** e **Perdido**.
+  - Registro detalhado de cada lead, incluindo status, fonte de aquisição e método de pagamento.
+- **Análises Visuais:**
+  - Gráficos de desempenho: status dos leads, fontes de aquisição e métodos de pagamento.
+  - Relatórios financeiros e operacionais detalhados.
+
+### **5. Análise de Calls por IA**
+- Ferramenta de Inteligência Artificial que analisa as calls realizadas com leads:
+  - Identifica padrões de desempenho e pontos de melhoria.
+  - Sugere estratégias personalizadas para aumentar a conversão.
+
+### **6. Progresso e Metas**
+- Acompanhamento detalhado do progresso em relação às metas estipuladas.
+- Sistema de premiações para desempenho excepcional:
+  - Consultorias individuais.
+  - Estudos de caso personalizados.
+  - Outros incentivos, como entrevistas em podcasts e prêmios surpresa.
+
+---
 
 ## Tecnologias Utilizadas
-- **Ferramenta no-code**: Desenvolvimento do front-end responsivo e interativo.
-- **n8n**: Automação dos processos de back-end.
-- **Supabase**: Banco de dados relacional para armazenamento de dados.
-- **OpenAI GPT**: Inteligência artificial para geração de recomendações e análises.
-- **Chart.js**: Visualização de dados em gráficos interativos.
+- **IA:** OpenAI para análise de dados e recomendações inteligentes.
+- **Banco de Dados:** Supabase para armazenamento seguro e eficiente.
+- **Back-end:** Automação e integração com ferramentas no-code e APIs.
+- **Front-end:** Ferramenta no-code para desenvolvimento de interface moderna e responsiva.
 
-## Capturas de Tela
-### Visão Geral do Portal
-![Visão Geral](screenshots/visao-geral.png)
+---
 
-### Planejamento Estratégico (Kanban)
-![Plano de Ação](screenshots/plano-de-acao.png)
+## Imagens do Projeto
 
-### Progresso Financeiro
-![Progresso Financeiro](screenshots/progresso-financeiro.png)
+### **Dashboard**
+![Dashboard](screenshots/visao_geral_negocio.png)
 
-### Ferramentas Personalizadas para Alunos
-![Ferramentas para Alunos](screenshots/ferramentas-alunos.png)
+### **Plano de Ação**
+![Plano de Ação](screenshots/plano_acao.png)
 
-### CRM e Métricas
+### **Área de CS**
+![Área de CS](screenshots/area_cs.png)
+
+### **CRM**
+![CRM](screenshots/CRM.png)
+
+### **Caixa de Ferramentas**
+![Caixa de Ferramentas](screenshots/caixa_ferramentas.png)
+
+### **Tutor de Vendas com IA**
+![Tutor de Vendas com IA](screenshots/tutor_ia.png)
+
+### **CRM Dashboard**
 ![CRM Dashboard](screenshots/crm-dashboard.png)
 
-### Métricas Principais e Análise por IA
-![Métricas Principais](screenshots/metricas-principais.png)
+---
 
-## Contato
-Se você deseja saber mais sobre este projeto ou obter uma demonstração, entre em contato:
-- LinkedIn: [Dayana de Paula](https://linkedin.com/in/dayana-depaula)
+## Como Utilizar
+Este repositório foi criado para apresentar as funcionalidades e a estrutura do **Portal de Mentoria de Negócios**. Por motivos de confidencialidade, o código-fonte não está disponível, mas você pode visualizar as funcionalidades por meio das capturas de tela e descrição.
+
+---
 
 ## Licença
-Este projeto está protegido por uma licença MIT. Você pode utilizá-lo, modificar e redistribuir sob os termos da licença.
+Este projeto está protegido e não possui uma licença pública. Para mais informações, entre em contato.
